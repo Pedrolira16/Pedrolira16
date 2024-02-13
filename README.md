@@ -5,7 +5,7 @@
 
 - 📚 I’m currently Studying at Cesar School
 - 💻 I’m currently learning Javascript
-<br>
+
 <h3>Languages I'm proficient in:</h3>
   <div style="display: inline_block"><br>
     <img align="center" alt="Pedro-Js" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
@@ -22,7 +22,7 @@
   
 </div>
 
-<h3>These are my statuses:</h3>
+<h3>These are my stats:</h3>
 
 </div>
   <a href="https://github.com/Pedrolira16">
