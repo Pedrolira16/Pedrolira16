@@ -2,7 +2,6 @@
 <h3 align="center">Student developer from Brazil</h3>
 
 <br>
-<br>
 
 - 📚 I’m currently Studying at Cesar School
 - 💻 I’m currently learning Javascript
@@ -23,7 +22,7 @@
   
 </div>
 
-### These are my statuses
+<h3>These are my statuses:</h3>
 
 </div>
   <a href="https://github.com/Pedrolira16">
