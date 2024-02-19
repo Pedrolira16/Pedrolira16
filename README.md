@@ -6,7 +6,7 @@
 - 📚 I’m currently Studying at Cesar School
 - 💻 I’m currently learning Javascript
 
-<h3>Languages I'm proficient in:</h3>
+<h3>I have had experience with:</h3>
   <div style="display: inline_block"><br>
     <img align="center" alt="Pedro-Js" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
     <img align="center" alt="Pedro-Python" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
