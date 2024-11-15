@@ -33,9 +33,11 @@
 
 <h3>These are my stats:</h3>
 
-<div>
+<div align="center">
   <a href="https://github.com/Pedrolira16">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Pedrolira16&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+    <!-- Cartão de estatísticas do GitHub -->
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Pedrolira16&show_icons=true&theme=dark&count_private=true&hide=contribs,prs"/>
+    <!-- Linguagens mais usadas -->
     <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pedrolira16&layout=compact&langs_count=7&theme=dark"/>
   </a>
 </div>
