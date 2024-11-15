@@ -25,10 +25,26 @@
 <h3>These are my stats:</h3>
 
 </div>
-  <a href="https://github.com/Pedrolira16">
-  
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Pedrolira16&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+ name: Update GitHub Stats
 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pedrolira16&layout=compact&langs_count=7&theme=dark"/>
+on:
+  schedule:
+    - cron: "0 */6 * * *"  # Atualiza a cada 6 horas
+  workflow_dispatch:       # Permite execução manual do workflow
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository content
+        uses: actions/checkout@v2
+
+      - name: Run GitHub Stats Updater
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -X GET "https://github-readme-stats.vercel.app/api?username=Pedrolira16&show_icons=true&theme=dark&include_all_commits=true&count_private=true" > README.md
+          curl -X GET "https://github-readme-stats.vercel.app/api/top-langs/?username=Pedrolira16&layout=compact&langs_count=7&theme=dark" >> README.md
+
 </div>
 
